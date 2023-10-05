@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TechB@g</title>
+        <link rel="shortcut icon" href="bg18.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="stu.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+    </head>
+    <body>
+        <div class="div">
+            <nav>
+                <div class="logo">Logo</div>
+                    <div class="dropdown">
+                        <button>Theme</button>
+                        <div class="dropdown-options">
+                        <a href="/filter?theme=Software">Software</a>
+                        <a href="/filter?theme=Hardware">Hardware</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button>Domain</button>
+                        <div class="dropdown-options">
+                            <a href="/filter?domain=smart_education">Smart Education</a>
+                            <a href="/filter?domain=blockchain">Blockchain & Cybersecurity</a>
+                            <a href="/filter?domain=clean_green_tech">Clean & Green Technology</a>
+                            <a href="/filter?domain=disaster_management">Disaster Management</a>
+                            <a href="/filter?domain=smart_automation">Smart Automation</a>
+                            <a href="/filter?domain=smart_vehicle">Smart Vehicles</a>
+                            <a href="/filter?domain=robotics">Robotics and Drones</a>
+                            <a href="/filter?domain=transportation">Transportation & Logistics</a>
+                        </div>
+                </div>
+
+                <div class="profile">
+                    <a href="/profile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZJJREFUSEu11L9L1WEUx/GXNAdKklHY0mCjU3+A2C+l0aSpv0AIDXSS2lSKGtpbU0eLRLPGVjdxaDH6JUahjYlx4DEu3+5zny/X7lmfcz7v8+s5XTpsXR3WVxdwCw9wKSX0AbN4VUqwDmAacxmh+3jcClICXMcqviJAa0nsGuZxDsPYyEFKgPUkMI6lishtLOI1RtoF/EA3TuNXReQM9vAZF9oFfMNZ9OJ7BhA+0aqmVmpR9Pwqoh3LmRbFjG62C2gccmxMzORUgi6g76RDjsQmEWIh3GiHCOjTk6zpcewAphDr+Rtv0/5v/4+PVtJo+d5qyLGekfUVDKZtahTbxSbep2oOmpFygNiK52mIdSqIv3AXb6rOzQCjeJkcV/AQcdx+VoKjwjh+8R4xYZFYrO1fqwJ6sJUyj1szUyd9PErt/ILL2D+OqwLu4QneYaimeLiFTnzKOHwTeJYDxEEbK32eDPhGOnwvcCcH2EE/olXVnpcKOo9P+IiLOcBReijdqBzsn/h2hUrVZLeodmBdx45X8Afl0EcZyvkojQAAAABJRU5ErkJggg=="/></a>
+                </div>
+            </nav>
+            <div class="mainmain">
+                //- <h1 class="background"></h1>
+                h1(class="background")=num
+                each item in items
+                    <div class="maindiv">
+                        <div class="heading background">
+                            b=item.pr_name
+                        </div>
+                        <div class="name">
+                            <div class="name1">
+                                //- <p><b><h2 class="background">Name : p=item.name  </h2></b></p>
+                                h2(class="background")=item.name
+                                h2(class="background")=item.theme
+                            </div>
+                            <div class="name2">
+                                <p><ul>
+                                    <b><h3>
+                                        <li class="background"> Poornima College of Engineering</li>
+                                        li(class="background")=item.email
+                                    </b></h3>
+                                </ul></p></div>
+                            </div>
+                            <div class="prodec">
+                                <b><h2 class="background">Project Description :</h2></b>
+                                p(class="background")=item.project_dis
+                            </div>
+                            <div class="technology">
+                                <b><h2 class="background">Technology Used : </h2></b>
+                                <p><ul>
+                                li(class="background")=item.tech_name
+                                </ul></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>                   
+        </div>
+        script(src="org.js") 
+    </body>
+</html>

@@ -1,0 +1,69 @@
+.adnew_page{
+    /* margin-left: 400px; */
+    border: 3px solid black;
+    /* height: 75vh; */
+    width: 50vw;
+    background-color: rgb(244, 246, 247);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputselect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.select{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 30vw;
+    height: 5rem;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+div.ad_h1{
+    /* width: 40%; */
+    margin-bottom: 2rem;
+    border-bottom: 3px dotted black;
+
+}
+button{
+    border-radius: 800px;
+    margin-top: 1rem;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(244, 246, 247);
+    color: rgba(23, 23, 156, 0.89);
+    transition: all ease 1s;
+}
+button:hover{
+    color: white;
+    background-color: rgba(23, 23, 156, 0.89);
+    border: 2px solid rgba(23, 23, 156, 0.89);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 17px;
+    margin-left: 20px;
+}

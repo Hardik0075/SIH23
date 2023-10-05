@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  body{
+    background-image: linear-gradient(to bottom right, #41729f, #5885af,#274472,#c3e0e5);
+    /* background-image: url(./bg.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  .div{
+    /* background-image: url(./bg.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80rem;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.logo{
+    background: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px white);
+}
+.ad_button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 70px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid rgba(55, 51, 51, 0.911);
+    box-shadow: 3px 3px 3px white;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    vertical-align: middle;
+   
+}
+.main .theme{
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+    background: none;
+}
+.domain{
+    background: none;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+    background: none;
+}
+
+.profile{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.heading{
+    background: none;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+.background{
+    border: none;
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.491));
+    margin-top: 10px;
+}
+.mainmain{
+    margin-top: 40px;
+}
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 10px white;
+    width: 60vw;
+    margin-left:18rem ;
+    margin-top: 6rem;
+    padding: 1.7rem 1.7rem 1.7rem 1.7rem;
+
+}
+.name{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    border: none;
+    background-color: none;
+  }
+
+
+  
+  header {
+    width: 100%;
+    
+    height: 8rem; /* 8 rem*/
+    background-color: #0e2a3c;
+    padding-left: 2rem;
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px double white;
+    transition: all ease;
+    animation: fadein 1 6s;
+    }
+    
+    header > div.in_logo {
+    margin-left: 1rem;
+    }
+    
+    header > div.in_logo > div > img {
+    width: 8rem;
+    height: 8rem;
+    transform: scale(2);
+    filter: drop-shadow(4px 4px 10px black);
+    }
+    
+    header > div.in_logo > h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 0.4rem;
+    color: black;
+    filter: drop-shadow(2px 2px 5px rgb(254, 230, 230));
+    }
+    
+    header > div.in_link {
+    padding-top: 2rem;
+    margin-left: 30%;
+    margin-top: -2%;
+    }
+    
+    header > div.in_link > ul {
+    list-style: none;
+    display: flex;
+    padding-left: 19rem;
+    padding-top: 2rem;
+    }
+    
+    header > div.in_link > ul > li {
+    margin-left: 2rem;
+    color: black;
+    margin-left: 70%;
+    transition: all ease 1s;
+    }
+    
+    header > div.in_link > ul > li:nth-child(1):hover,
+    header > div.in_link > ul > li:nth-child(2):hover,
+    header > div.in_link > ul > li:nth-child(3):hover,
+    header > div.in_link > ul > li:nth-child(4):hover {
+    transform: scale(1.3);
+    }
+    
+    header > div.in_link > ul > li > a {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    filter: drop-shadow(10px 10px 5px rgb(16, 16, 16));
+    }
+    
+    header > div.in_link > ul > li > a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    transition: all ease 1s;
+    height: 16%;
+    background-color: white;
+    }
+    
+    header > div.in_link > ul > li:hover > a::after {
+    width: 100%;
+    }
+    
+    header > div.in_link > ul > li > a::before {
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    transition: all ease 1s;
+    height: 16%;
+    background-color: transparent;
+    }
+    
+    header > div.in_link > ul > li:hover > a::before {
+    width: 0%;
+    background-color: white;
+    
+    }
+    
+    header {
+    position: fixed; /* or "absolute" depending on your layout needs */
+    top: 0;
+    /* Other header styles */
+    }
+.div{
+    margin-top: 16rem;
+}

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  body{
+    background-image: linear-gradient(to bottom right, #41729f, #5885af,#274472,#c3e0e5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .div{
+    height: 80rem;
+  } 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.logo{
+    background: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px white);
+}
+.main .theme{
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+    background: none;
+}
+.domain{
+    background: none;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+    background: none;
+}
+
+.profile{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.heading{
+    background: none;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+.background{
+    border: none;
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.491));
+    margin-top: 10px;
+}
+.mainmain{
+    margin-top: 40px;
+}
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 10px white;
+    width: 60vw;
+    margin-left:18rem ;
+    padding: 1.7rem 1.7rem 1.7rem 1.7rem;
+
+}
+.name{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    border: none;
+    background-color: none;
+  }
+  
+  button{
+    border:none;
+    border-radius:5px;
+    padding:15px 30px;
+    font-size:18px;
+    cursor:pointer;
+    background-color: #111132f7;
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.491));
+  }
+  
+  button:hover{
+    background-color:#000000;
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:20px 40px;
+  }
+  
+  .dropdown-options a:hover {
+    color: #0a0a23;
+    background-color: #ddd;
+    border-radius:5px;
+  }
+
+  .maindiv{
+    margin-top: 2rem;
+  }
+
+  .div{
+    height: 60rem;
+  }
+
+  .profile{
+    width:5rem;
+    height: 5rem;
+  }
+  box-icon{
+    width: 100%;
+    height: 100%;
+  }

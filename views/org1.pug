@@ -1,0 +1,124 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        //- <link rel="icon" type="image/x-icon" href="./public/bg18.jpg"> 
+        <link rel="shortcut icon" href="bg18.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="./org1.css">
+        <title>Home</title>
+    </head>
+    <body>
+
+        <header>
+            
+            
+            <div class="in_logo">
+                <div>
+                    <img src="./bh20.png" alt="">
+                </div>
+            </div>
+            <div class="in_link" style="margin-left:700px">
+                <div class="theme">
+                    <select name="Theme" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" id="Theme">
+                        <option value="theme" selected id="maintheme">Theme</option>
+                        <option value="/filtero?theme=Software">Software</option>
+                        <option value="/filtero?theme=Hardware">Hardware</option>
+                    </select>
+                </div>
+                
+                    
+                    
+            </div>
+            <div class="in_link" style="margin-left:0px">
+                <div class="domain">
+                    <select name="Domain" name="Theme" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);"  id="Domain">
+                        <option value="Domain" selected id="maindomain">Domain</option>
+                        <option value="/filtero?domain=smart_automation">Smart Automation</option>
+                        <option value="/filtero?domain=smart_education">Smart Education</option>
+                        <option value="/filtero?domain=blockchain_&_cybersecurity">Blockchain & Cybersecurity</option>
+                        <option value="/filtero?domain=clean_&_green_technology">Clean & Green Technology</option>
+                        <option value="/filtero?domain=disaster_management">Disaster Management</option>
+                        <option value="/filtero?domain=smart_vehicles">Smart Vehicles</option>
+                        <option value="/filtero?domain=robotics_and_drones">Robotics and Drones</option>
+                        <option value="/filtero?domain=transportation_&_logistics">Transportation & Logistics</option>
+                    </select>
+                </div>
+            </div>
+            <div class="in_link">
+                <div class="ad_new">
+                    <a href="/upload" class="ad_button">
+                        <img width="48" height="48" class="darker" src="https://img.icons8.com/fluency/48/add--v1.png" alt="add--v1"/>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section>
+        <!-- <div class="in_category"> -->
+            <div class="mainmain">
+                <h1 class="background">Project Kit</h1>
+                each item in items
+                    <div class="maindiv">
+                        <div class="heading background">
+                            b=item.pr_name
+                        </div>
+                        <div class="name">
+                            <div class="name1">
+                                <p>
+                                    <b>
+                                        <h2 class="background">Name:
+                                            span=item.name 
+                                        </h2>
+                                    </b>
+                                </p>
+                                <p>
+                                    <b>
+                                        <h2 class="background">Theme : 
+                                            span=item.theme   
+                                        </h2>
+                                    </b>
+                                </p>
+                                <p>
+                                    <b> 
+                                        <h2 class="domains background">Domain:-
+                                            span=item.domain
+                                        </h2>
+                                    </b>
+                                </p>
+                            </div>
+                            <div class="name2">
+                                    <p><ul>
+                                        <b><h3>
+                                            <li class="background"> Poornima College of Engineering</li>
+                                            li(class="background")=item.email
+                                        </b></h3>
+                                    </ul></p>
+                            </div>
+                        </div>
+                            <div class="prodec">
+                                <b><h2 class="background">Project Description :</h2></b>
+                                p(class="background")=item.project_dis
+                            </div>
+                            <div class="technology">
+                                <b><h2 class="background">Technology Used : </h2></b>
+                                <p><ul>
+                                    <li class="background">Html5</li>
+                                    <li class="background">CSS</li>
+                                    <li class="background">Javascript</li>
+                                    <li class="background">Python</li>
+                                    <li class="background">MySql</li>
+                                </ul></p>
+                            </div>
+                        
+                    </div>
+            </div>
+        </section>
+
+        <footer style="padding-top: 8rem;padding-left: 35rem;padding-bottom: 2rem;font-size: larger;color: white;filter: drop-shadow(2px 2px 10px);">
+            <p>&copy; Copyright reserved 2023.</p>
+            <p>Please contact us on ........... for more details</p>
+        </footer>
+        <script src="./org.js"></script>
+    
+    </body>
+</html>

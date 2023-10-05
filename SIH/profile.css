@@ -1,0 +1,166 @@
+.project{
+    margin-left: 250px;
+    border: 2px solid black;
+    height: 600px;
+    width: 60vw;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    padding-bottom:2px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+}
+.name_pd{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+ul>li{
+    margin-left: 2rem;
+}
+p{
+    text-align: justify;
+}
+.technology{
+    margin-top: 5px;
+}
+.ad_button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 70px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: Black;
+    color:white;
+    /* filter: drop-shadow(10px 10px 5px pink); */
+}
+
+.ad_button>h4{
+    filter: drop-shadow(2px 2px 5px white);
+}
+
+div.da_heading{
+    background-color: rgb(125, 125, 188);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+div.perdes>ul>li{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+
+
+h1.in_heading{
+    padding-top:0.6rem;
+    margin-left:0.4rem;
+    /* text-align:center ; */
+    /* font-weight: 0; */
+ }
+ span.in_hindi_logo{
+    font-weight: 700;
+    font-size: medium;
+ }
+ span.in_low{
+    font-weight: 50;
+ }
+ span.in_logo{
+    font-weight: 1200;
+    font-size: xx-large;
+ }
+
+
+ h1.in_heading{
+    /* padding-top:0.6rem; */
+    margin-left:0.4rem;
+    /* text-align:center ; */
+    /* font-weight: 0; */
+ }
+ span.in_hindi_logo{
+    
+    font-weight: 700;
+    font-size: large;
+    
+ }
+
+
+
+ span.in_low{
+    /* font-weight: 50; */
+    font-size: 1rem;
+    font-size: medium;
+ }
+ span.in_logo{
+    font-weight: 1200;
+    font-size: larger;
+     
+}
+h1.in_heading{
+    padding-top: 1rem;
+}
+
+.prodes>p{
+    margin-top: 0.4rem;
+}
+
+.name{
+    margin-top: 1rem;
+}
+
+.da_logo{
+    padding: 0;
+    margin: 0;
+    height: 0;
+    font-size: small;
+    padding-top: 1rem;
+}
+img.in_swach{
+    margin-left: 20rem;
+}
+
+span.in_logo{
+    font-size: 40px;
+
+}
+h1.in_heading{
+    font-size: 5px;
+}
+
+h1.da_head{
+    margin-top: 2rem;
+}
+
+div.da_head{
+    width: 100%;
+    background-color: rgb(164, 164, 250);
+    /* padding-top: 1rem; */
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.da_body{
+    background-color: rgb(232, 232, 232);
+}
+

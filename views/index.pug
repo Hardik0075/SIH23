@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MGT007</title>
+
+    <!-- <link rel="stylesheet" href="../public/day.css"> -->
+    style
+            include ../public/day.css
+</head>
+
+
+
+    <body>
+
+        <header>
+            <div class="in_logo">
+                <div>
+                    <img src="./bh20.png" alt="Logo">
+                </div>
+                <!-- <h2>Your Website Name</h2> -->
+            </div>
+            <div class="in_link">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">AboutUs</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </header>
+        
+        <div class="login-box"> <!-- isse change karna hai toh class name sabhi ka change karna pdega -->
+
+            <h2>Submision-Form</h2>
+
+            <form action="/contact" method="post">
+
+                <div class="user-box">
+
+                    <input type="text" name="name" required>
+
+                    <label for="">Student Name</label>
+
+                </div>
+                 <div class="user-box">
+
+                    <input type="text" name="pr_name" required>
+
+                    <label for="">Project Name</label>
+
+                </div>
+
+                <div class="user-box">
+
+                    <input type="text" name="email" required>
+
+                    <label for="">Email</label>
+
+                </div>
+                <div class="user-box">
+
+                    <input type="text" name="password" required>
+
+                    <label for="">Password</label>
+
+                </div>
+
+                <div class="user-box">
+
+                    <input type="password" name="unique_id" required>
+
+                    <label for="">Unique Code</label>
+
+                </div>
+
+                <div class="user-box">
+
+                    <input type="text" name="tech_name" required>
+
+                    <label for="">Technology Used</label>
+
+                </div>
+
+                <div class="user-box">
+
+                    <input name="project_dis" type="text" required>
+
+                    <label for="">Project Description</label>
+
+                </div>
+
+
+
+                <!-- drop down mwnu start froms here-->
+
+                <div class="user-box">
+
+                    <!-- <label for="theme">Select Project Theme</label> -->
+
+                    <select id="theme" name="theme" required>
+
+                        <option value="" disabled selected>Select Theme</option>
+
+                        <option value="Hardware">Hardware</option>
+
+                        <option value="Software">Software</option>
+
+                    </select>
+
+                </div>
+
+                <div class="user-box">
+
+                    <!-- <label for="theme">Select Project Theme</label> -->
+
+                    <select id="theme" name="domain" required>
+
+                        <option value="" disabled selected>Select Domain</option>
+
+                        <option value="smart_education">Smart Education</option>
+
+                        <option value="blockchain">Blockchain</option>
+                        <option value="smart_automation">Smart Automation</option>
+                        <option value="smart_education">Smart Education</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="healthcare">Health Care</option>
+                        <option value="cyber_security">Cyber Security</option>
+
+                        <option value="environment">Environment</option>
+
+                    </select>
+
+                </div>
+
+                //- <!--
+
+                //-     <div class="user-box">
+
+                //-     <label for="student-email">Student Email Address</label>
+
+                //-     <input type="email" id="student-email" placeholder="Enter Student Email" required>
+
+                //-     </div>
+
+                //- -->
+
+                <button class="sub_btn" type="submit">
+
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>Submit
+
+                </button>    
+            </form>
+
+        </div>
+
+
+
+    </body>
+
+ 
+
+</html>
